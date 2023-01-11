@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Title</h1>
+    <p id="description">Description</p>
+
+    <form id="survey-form">
+      <div>
+        <label 
+          id="name-label" 
+          for="name"
+        >Name</label>
+        <input type="text" id="name" placeholder="name" value="" required>
+      </div>
+      <div>
+        <label 
+          id="email-label" 
+          for="email"
+        >Email</label>
+        <input type="email" id="email" placeholder="email" value="" required>
+      </div>
+      <div>
+        <label
+          id="number-label" 
+          for="number"
+        >Number</label>
+        <input 
+          placeholder="number"
+          value=""
+          type="number" 
+          id="number" 
+          min="1" 
+          max="10"
+        >
+      </div>
+      <div>
+        <select id="dropdown">
+          <option>val1</option>
+          <option>val2</option>
+        </select>
+      </div>
+      <div>
+        A
+        <input type="radio" name="radio" value="a" />
+        B
+        <input type="radio" name="radio" value="b" />
+      </div>
+      <div>
+        A <input type="checkbox" value="A" />
+        B <input type="checkbox" value="B" />
+        C <input type="checkbox" value="C" />
+      </div>
+      <div>
+        <textarea></textarea>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
